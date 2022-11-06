@@ -31,3 +31,7 @@ Do the stuff, unless you just don't feel like it. I have those days too.
 3. Use Obsidan to open local folder as vault.
 4. Enable plugins at your own risk. Scary...
 5. Make a new epic vow and HAVE FUN!
+
+Screenshot of the coop campaign we exported from Discord
+
+![ironsworn-obsidian](https://user-images.githubusercontent.com/43780558/200199240-bdcf2ad6-4092-402d-99c4-9b6d3cd2fcb4.png)
