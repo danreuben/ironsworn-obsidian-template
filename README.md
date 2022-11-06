@@ -11,11 +11,15 @@ This package also includes a handfull of Obsidian community plugins preconfigure
 To all the folks who make this stuff work, BIG HUGS!
 
 [Obsidian](https://obsidian.md/)
+
 [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+
 [Obsidian Dice Roller](https://github.com/valentine195/obsidian-dice-roller)
+
 [Contextual Topography](https://github.com/mgmeyers/obsidian-contextual-typography)
 
 Alternative to Obsidian Sync
+
 [Obsidian Git](https://github.com/denolehov/obsidian-git)
 
 ## the easy road 
