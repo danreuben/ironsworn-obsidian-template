@@ -1,0 +1,93 @@
+/* Global */
+
+body {
+    --font-text-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
+    --font-editor-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
+    --font-monospace-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
+    --font-editor: var(--font-editor-override),var(--font-text-override),var(--font-editor-theme);
+}
+body {
+    --blockquote-style: normal;
+    --blockquote-color: normal;
+    --blockquote-border-thickness: 3px;
+    --blockquote-border-color: var(--ribbon-background);
+}
+body {
+    --table-header-border-width: 0 1px;
+    --table-column-first-border-width: 0;
+    --table-column-last-border-width: 0;
+    --table-row-last-border-width: 0;
+}
+table {
+    width: 100%;
+    max-width: var(--line-width-wide)!important;
+}
+table  tbody  tr  td:nth-child(1) {
+    min-width: fit-content;
+    white-space: nowrap;
+}
+div.markdown-rendered li.task-list-item.is-checked {
+    text-decoration: none;
+}
+
+/* Journal */
+
+div.journal span[src$="#avatar"] 
+img{
+    position: absolute;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+div.journal span[src$="#avatar"] {
+    float: left;
+    position: relative;
+    right: 60px;
+    width: 45px;
+}
+.theme-dark div.journal div.el-embed-heading p {
+    overflow: visible;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: var(--ribbon-background);
+    border-color: var(--ribbon-background);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.theme-light div.journal div.el-embed-heading p {
+    overflow: visible;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: var(--ribbon-background);
+    border-color: var(--ribbon-background);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+}
+div.journal div.el-p p
+{
+    overflow: visible;
+    padding: 5px;
+}
+div.journal h1,div.journal h2,div.journal h3
+{
+    text-align: center;
+}
+
+/* Asset */
+
+/* Oracle */
+
+/* Character */
+
+div.character span[src$="#profile"] 
+img{
+    position: absolute;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+div.character span[src$="#profile"] {
+    float: right;
+    position: relative;
+    width: 200px;
+}
