@@ -34,4 +34,4 @@ Do the stuff, unless you just don't feel like it. I have those days too.
 
 Screenshot of the coop campaign we exported from Discord
 
-![ironsworn-obsidian](https://user-images.githubusercontent.com/43780558/200199240-bdcf2ad6-4092-402d-99c4-9b6d3cd2fcb4.png)
+![Screenshot 2022-11-06 173729](https://user-images.githubusercontent.com/43780558/200199343-7934a809-8d90-48be-8d6a-c81de6235a42.png)
