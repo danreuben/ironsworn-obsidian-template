@@ -4,7 +4,7 @@ Welcome to the Ironlands! Check out the main site for [Ironsworn](https://www.ir
 
 The majority of the work here was done by others. I am but a humble curator. The included oracle files are modified from the work of [grimborg](https://github.com/grimborg/obsidian-ironsworn). The Ironsworn moves and assets files are converted from the work done by [rsek](https://github.com/rsek/datasworn) for compatiablity with Obsidian. I wrote the included css snippet to give the journal a more conversational feel. Not everyone role plays solo ttrpgs, but I do. Enable them if you wish.
 
-This package also includes a handfull of Obsidian community plugins preconfigured to assist you through playing Ironsworn. Use at your own risk. I have provided links to all resources used below if you prefer the hands on approach.
+This package also includes a handfull of Obsidian community plugins to assist you through playing Ironsworn. Use at your own risk. I have provided links to all resources used below if you prefer the hands on approach.
 
 ## App and plugin links
 
