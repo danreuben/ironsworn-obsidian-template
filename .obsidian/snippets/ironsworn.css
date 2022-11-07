@@ -41,6 +41,7 @@ img{
 div.journal span[src$="#avatar"] {
     float: left;
     position: relative;
+    top: -6px;
     right: 60px;
     width: 45px;
 }
