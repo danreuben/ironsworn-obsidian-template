@@ -4,11 +4,11 @@ cssclass: character
 
 # CHARACTER SHEET
 
-![[steve.png#profile]]**STEVE** the Robot of Stable Diffusion
+![[jagger.png#profile]]**Jagger** the Vagrant of Losthill
 
 ## STATS
 
-**EDGE:** 2 **HEART:** 1 **IRON:** 3 **SHADOW:** 2 **WITS:** 1
+**EDGE:** 2 **HEART:** 3 **IRON:** 1 **SHADOW:** 2 **WITS:** 1
 
 **HEALTH** **5**/5 **SPIRIT** **5**/5 **MOMENTUM** **10**R2/10
 
