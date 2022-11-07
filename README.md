@@ -32,6 +32,4 @@ Do the stuff, unless you just don't feel like it. I have those days too.
 4. Enable plugins at your own risk. Scary...
 5. Make a new epic vow and HAVE FUN!
 
-Screenshot of a coop campaign converted from Discord
-
-![Screenshot 2022-11-06 173729](https://user-images.githubusercontent.com/43780558/200199343-7934a809-8d90-48be-8d6a-c81de6235a42.png)
+![image](https://user-images.githubusercontent.com/43780558/200208831-063f3a76-1208-4b87-8b89-90d9efb5fbc1.png)
