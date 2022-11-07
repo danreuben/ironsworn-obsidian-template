@@ -12,7 +12,7 @@ To all the folks who make this stuff work, BIG HUGS!
 
 [Obsidian](https://obsidian.md/)
 
-[Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)
+[Obsidian Leaflet](https://github.com/valentine195/obsidian-leaflet-plugin)
 
 [Obsidian Dice Roller](https://github.com/valentine195/obsidian-dice-roller)
 
