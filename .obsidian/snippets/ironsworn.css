@@ -1,38 +1,36 @@
 /* Global */
 
-:root {
-    body {
-        --font-text-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
-        --font-editor-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
-        --font-monospace-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
-        --font-editor: var(--font-editor-override),var(--font-text-override),var(--font-editor-theme);
-    }
-    body {
-        --blockquote-style: normal;
-        --blockquote-color: normal;
-        --blockquote-border-thickness: 3px;
-        --blockquote-border-color: var(--ribbon-background);
-    }
-    body {
-        --table-header-border-width: 0 1px;
-        --table-column-first-border-width: 0;
-        --table-column-last-border-width: 0;
-        --table-row-last-border-width: 0;
-    }
-    table {
-        width: 100%;
-        max-width: var(--line-width-wide)!important;
-    }
-    table  tbody  tr  td:nth-child(1) {
-        min-width: fit-content;
-        white-space: nowrap;
-    }
-    .markdown-rendered li.task-list-item.is-checked {
-        text-decoration: none;
-    }
-    .markdown-source-view.mod-cm6.is-live-preview .HyperMD-list-line[data-task="x"] {
-        text-decoration: none;
-    }
+body {
+    --font-text-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
+    --font-editor-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
+    --font-monospace-theme: Menlo,SFMono-Regular,Consolas,"Roboto Mono",monospace;
+    --font-editor: var(--font-editor-override),var(--font-text-override),var(--font-editor-theme);
+}
+body {
+    --blockquote-style: normal;
+    --blockquote-color: normal;
+    --blockquote-border-thickness: 3px;
+    --blockquote-border-color: var(--ribbon-background);
+}
+body {
+    --table-header-border-width: 0 1px;
+    --table-column-first-border-width: 0;
+    --table-column-last-border-width: 0;
+    --table-row-last-border-width: 0;
+}
+table {
+    width: 100%;
+    max-width: var(--line-width-wide)!important;
+}
+table  tbody  tr  td:nth-child(1) {
+    min-width: fit-content;
+    white-space: nowrap;
+}
+.markdown-rendered li.task-list-item.is-checked {
+    text-decoration: none;
+}
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-list-line[data-task="x"] {
+    text-decoration: none;
 }
 
 /* Journal reading mode */
@@ -41,6 +39,7 @@
     position: absolute;
     border-radius: 50%;
     aspect-ratio: 1/1;
+	visibility: vivisble;
 }
 .journal span[src$="#avatar"] {
     float: left;
@@ -85,6 +84,7 @@
     position: absolute;
     border-radius: 50%;
     aspect-ratio: 1/1;
+	visibility: hidden;
 }
 .markdown-source-view.mod-cm6.is-live-preview.journal div[src$="#avatar"] {
     float: left;
