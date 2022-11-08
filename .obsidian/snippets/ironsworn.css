@@ -30,10 +30,9 @@ div.markdown-rendered li.task-list-item.is-checked {
     text-decoration: none;
 }
 
-/* Journal */
+/* Journal reading mode */
 
-div.journal span[src$="#avatar"] 
-img{
+div.journal span[src$="#avatar"] img {
     position: absolute;
     border-radius: 50%;
     aspect-ratio: 1/1;
@@ -75,19 +74,77 @@ div.journal h1,div.journal h2,div.journal h3
     text-align: center;
 }
 
+/* Journal editing mode */
+
+div.journal div[src$="#avatar"] > img {
+    position: absolute;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+div.journal div[src$="#avatar"] {
+    float: left;
+    position: relative;
+    top: -6px;
+    right: 60px;
+    width: 45px;
+}
+.theme-dark div.journal div.el-embed-heading p {
+    overflow: visible;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: var(--ribbon-background);
+    border-color: var(--ribbon-background);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.theme-light div.journal div.el-embed-heading p {
+    overflow: visible;
+    margin-left: 50px;
+    padding: 5px;
+    background-color: var(--ribbon-background);
+    border-color: var(--ribbon-background);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+}
+/* div.journal div.cm-line
+{
+    overflow: visible;
+    padding: 5px;
+}
+div.journal span.cm-header
+{
+    text-align: center;
+} */
+
+
 /* Asset */
 
 /* Oracle */
 
-/* Character */
+/* Character reading mode */
 
-div.character span[src$="#profile"] 
-img{
+div.character span[src$="#profile"] img {
     position: absolute;
     border-radius: 50%;
     aspect-ratio: 1/1;
 }
 div.character span[src$="#profile"] {
+    float: right;
+    position: relative;
+    width: 200px;
+}
+
+/* Character editing mode */
+
+div.character div[src$="#profile"]
+img{
+    position: absolute;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+div.character div[src$="#profile"] {
     float: right;
     position: relative;
     width: 200px;

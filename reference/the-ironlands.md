@@ -1,6 +1,6 @@
 ```leaflet
 id: ironlands
-image: [[IronswornNumberedHexMap.png]]
+image: [[the-ironlands-HexMap.png]]
 height: 1000px
 width: 100%
 bounds: 
