@@ -16,6 +16,6 @@ Smash the right side bar button to find your new dice bag.
 
 Let's make a move to [[move#Forge a Bond|Forge a Bond]]. Check out the fully linked [[IronswornOracle|Oracle]] to guide you through uncertain times and make sure not to go anywhere without a [[the-ironlands|map]].
 
-Have fun!
+![[Jagger.png#avatar]]**Jagger//** Have fun!
 
 # END
