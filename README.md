@@ -34,5 +34,4 @@ Do the stuff, unless you just don't feel like it. I have those days too.
 
 <img width="1680" alt="dark-theme" src="https://user-images.githubusercontent.com/43780558/201453896-8a441a04-ed1d-4cf5-8866-1e772c1c47b5.png">
 
-<img width="1677" alt="light-theme" src="https://user-images.githubusercontent.com/43780558/201453900-7a9eaa8e-dfb5-42dd-bc20-90bb75d01acf.png">
-
+<img width="1677" alt="light-theme" src="https://user-images.githubusercontent.com/43780558/201454003-4b12350a-3268-4c3d-a1ae-e022f51979ad.png">
