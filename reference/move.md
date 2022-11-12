@@ -1,7 +1,3 @@
----
-cssclass: move
----
-
 # Ironsworn: Moves
 
 ## Adventure Moves
@@ -158,7 +154,7 @@ On a hit, you and your allies may each focus on one of your chosen recover actio
   * Provision: Take +2 supply.
   * Plan: Take +2 momentum.
 * Provide Aid
-  * Take a quest: Envision what this community needs, or what trouble it is facing ([[#Ask the Oracle]] and add +1.
+  * Take a quest: Envision what this community needs, or what trouble it is facing ([[#Ask the Oracle]] if unsure). If you chose to help, [[#Swear an Iron Vow]] and add +1.
 
 On a **miss**, you find no help here. [[#Pay the Price]].
 
@@ -187,7 +183,7 @@ On a **strong hit**, make note of the bond, mark a tick on your bond progress tr
 * Take +1 spirit.
 * Take +2 momentum.
 
-On a **weak hit**, they ask something more of you first. Envision what it is ([[#Ask the Oracle]]).
+On a **weak hit**, they ask something more of you first. Envision what it is ([[#Ask the Oracle]] if unsure), do it (or [[#Swear an Iron Vow]]), and mark the bond. If you refuse or fail, [[#Pay the Price]].
 
 On a **miss**, they reject you. [[#Pay the Price]].
 
@@ -200,7 +196,7 @@ On a **strong hit**, this test has strengthened your bond. Choose one.
 * Take +1 spirit.
 * Take +2 momentum.
 
-On a **weak hit**, your bond is fragile and you must prove your loyalty. Envision what they ask of you ([[#Ask the Oracle]]).
+On a **weak hit**, your bond is fragile and you must prove your loyalty. Envision what they ask of you ([[#Ask the Oracle]] if unsure), and do it (or [[#Swear an Iron Vow]]). If you refuse or fail, clear the bond and [[#Pay the Price]].
 
 On a **miss**, or if you have no interest in maintaining this relationship, clear the bond and [[#Pay the Price]].
 
@@ -324,13 +320,13 @@ On a **weak hit**, you press on.
 
 On a **miss**, also suffer -1 momentum. If you are at 0 health, you must mark wounded or maimed (if currently unmarked) or roll on the following table.
 
-| Roll  | Result                                                                                                                                                                                                                       |
-| ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-10  | The harm is mortal. [[#Face Death]].                                                                                                                                                                                         |
-| 11-20 | You are dying. You need to Heal within an hour or two, or [[#Face Death]].                                                                                                                                                   |
-| 21-35 | You are unconscious and out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to a foe not inclined to show mercy, [[#Face Death]].                                            |
-| 36-50 | You are reeling and fighting to stay conscious. If you engage in any vigorous activity (such as running or fighting) before taking a breather for a few minutes, roll on this table again (before resolving the other move). |
-| 51-00 | You are battered but still standing.                                                                                                                                                                                         |
+Roll  | Result
+------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1-10  | The harm is mortal. [[#Face Death]].
+11-20 | You are dying. You need to Heal within an hour or two, or [[#Face Death]].
+21-35 | You are unconscious and out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to a foe not inclined to show mercy, [[#Face Death]].
+36-50 | You are reeling and fighting to stay conscious. If you engage in any vigorous activity (such as running or fighting) before taking a breather for a few minutes, roll on this table again (before resolving the other move).
+51-00 | You are battered but still standing.
 
 ### Face Death
 
@@ -341,7 +337,7 @@ On a **strong hit**, death rejects you. You are cast back into the mortal world.
 On a **weak hit**, choose one.
 
 * You die, but not before making a noble sacrifice. Envision your final moments.
-* Death desires something of you in exchange for your life. Envision what it wants ([[#Ask the Oracle]] if unsure), or refuse the quest, you are dead. Otherwise, you return to the mortal world and are now cursed. You may only clear the cursed debility by completing the quest.
+* Death desires something of you in exchange for your life. Envision what it wants ([[#Ask the Oracle]] if unsure), and [[#Swear an Iron Vow]] (formidable or extreme) to complete that quest. If you fail to score a hit when you [[#Swear an Iron Vow]], or refuse the quest, you are dead. Otherwise, you return to the mortal world and are now cursed. You may only clear the cursed debility by completing the quest.
 
 On a **miss**, you are dead.
 
@@ -368,12 +364,12 @@ On a **weak hit**, you press on.
 
 On a **miss**, also suffer -1 momentum. If you are at 0 spirit, you must mark shaken or corrupted (if currently unmarked) or roll on the following table.
 
-| Roll  | Result                                                                                 |
-| ----- | -------------------------------------------------------------------------------------- |
-| 1-10  | You are overwhelmed. [[#Face Desolation]].                                             |
-| 11-25 | You give up. [[#Forsake Your Vow]] (if possible, one relevant to your current crisis). |
-| 26-50 | You give in to a fear or compulsion, and act against your better instincts.            |
-| 51-00 | You persevere.                                                                         |
+Roll  | Result
+------|------------------------------------------------------------------------------------
+1-10  | You are overwhelmed. [[#Face Desolation]].
+11-25 | You give up. [[#Forsake Your Vow]] (if possible, one relevant to your current crisis).
+26-50 | You give in to a fear or compulsion, and act against your better instincts.
+51-00 | You persevere.
 
 ### Face Desolation
 
@@ -384,7 +380,7 @@ On a **strong hit**, you resist and press on.
 On a **weak hit**, choose one.
 
 * Your spirit or sanity breaks, but not before you make a noble sacrifice. Envision your final moments.
-* You see a vision of a dreaded event coming to pass. Envision that dark future ([[#Ask the Oracle]] if unsure), or refuse the quest, you are lost. Otherwise, you return to your senses and are now tormented. You may only clear the tormented debility by completing the quest.
+* You see a vision of a dreaded event coming to pass. Envision that dark future ([[#Ask the Oracle]] if unsure), and [[#Swear an Iron Vow]] (formidable or extreme) to prevent it. If you fail to score a hit when you [[#Swear an Iron Vow]], or refuse the quest, you are lost. Otherwise, you return to your senses and are now tormented. You may only clear the tormented debility by completing the quest.
 
 On a **miss**, you succumb to despair or horror and are lost.
 
@@ -432,7 +428,7 @@ When **you achieve what you believe to be the fulfillment of your vow**, roll th
 
 On a **strong hit**, your quest is complete. Mark experience (troublesome=1; dangerous=2; formidable=3; extreme=4; epic=5).
 
-On a **weak hit**, there is more to be done or you realize the truth of your quest. Envision what you discover ([[#Ask the Oracle]] to set things right. If you do, add +1.
+On a **weak hit**, there is more to be done or you realize the truth of your quest. Envision what you discover ([[#Ask the Oracle]] if unsure). Then, mark experience (troublesome=0; dangerous=1; formidable=2; extreme=3; epic=4). You may [[#Swear an Iron Vow]] to set things right. If you do, add +1.
 
 On a **miss**, your quest is undone. Envision what happens ([[#Ask the Oracle]] if unsure), and choose one.
 
@@ -457,24 +453,24 @@ When **you suffer the outcome of a move**, choose one.
 * Envision two negative outcomes. Rate one as ‘likely’, and [[#Ask the Oracle]] using the yes/no table. On a ‘yes’, make that outcome happen. Otherwise, make it the other.
 * Roll on the following table. If you have difficulty interpreting the result to fit the current situation, roll again.
 
-| Roll  | Result                                                                                         |
-| ----- | ---------------------------------------------------------------------------------------------- |
-| 1-2   | if unsure) and make it happen.                                                                 |
-| 3-5   | A person or community you trusted loses faith in you, or acts against you.                     |
-| 6-9   | A person or community you care about is exposed to danger.                                     |
-| 10-16 | You are separated from something or someone.                                                   |
-| 17-23 | Your action has an unintended effect.                                                          |
-| 24-32 | Something of value is lost or destroyed.                                                       |
-| 33-41 | The current situation worsens.                                                                 |
-| 42-50 | A new danger or foe is revealed.                                                               |
-| 51-59 | It causes a delay or puts you at a disadvantage.                                               |
-| 60-68 | It is harmful.                                                                                 |
-| 69-76 | It is stressful.                                                                               |
-| 77-85 | A surprising development complicates your quest.                                               |
-| 86-90 | It wastes resources.                                                                           |
-| 91-94 | It forces you to act against your best intentions.                                             |
-| 95-98 | A friend, companion, or ally is put in harm’s way (or you are, if alone).                      |
-| 99-00 | Roll twice more on this table. Both results occur. If they are the same result, make it worse. |
+Roll  | Result
+------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1-2   | Roll again and apply that result but make it worse. If you roll this result yet again, think of something dreadful that changes the course of your quest ([[#Ask the Oracle]] if unsure) and make it happen.
+3-5   | A person or community you trusted loses faith in you, or acts against you.
+6-9   | A person or community you care about is exposed to danger.
+10-16 | You are separated from something or someone.
+17-23 | Your action has an unintended effect.
+24-32 | Something of value is lost or destroyed.
+33-41 | The current situation worsens.
+42-50 | A new danger or foe is revealed.
+51-59 | It causes a delay or puts you at a disadvantage.
+60-68 | It is harmful.
+69-76 | It is stressful.
+77-85 | A surprising development complicates your quest.
+86-90 | It wastes resources.
+91-94 | It forces you to act against your best intentions.
+95-98 | A friend, companion, or ally is put in harm’s way (or you are, if alone).
+99-00 | Roll twice more on this table. Both results occur. If they are the same result, make it worse.
 
 ### Ask the Oracle
 
@@ -485,13 +481,13 @@ When **you seek to resolve questions, discover details in the world, determine h
 * Pick two: Envision two options. Rate one as ‘likely’, and roll on the table below to see if it is true. If not, it is the other.
 * Spark an idea: Brainstorm or use a random prompt.
 
-| Odds           | The answer is ‘yes’ if you roll... |
-| -------------- | ---------------------------------- |
-| Almost Certain | 11 or greater                      |
-| Likely         | 26 or greater                      |
-| 50/50          | 51 or greater                      |
-| Unlikely       | 76 or greater                      |
-| Small Chance   | 91 or greater                      |
+Odds           | The answer is ‘yes’ if you roll...
+---------------|-----------------------------------
+Almost Certain | 11 or greater
+Likely         | 26 or greater
+50/50          | 51 or greater
+Unlikely       | 76 or greater
+Small Chance   | 91 or greater
 
 On a match, an extreme result or twist has occurred.
 
@@ -523,13 +519,13 @@ On a **strong hit**, you delve deeper. Mark progress and [[#Find an Opportunity]
 
 On a **miss**, [[#Reveal a Danger]].
 
-| Edge  | Shadow | Wits  | Weak Hit Result                                        |
-| ----- | ------ | ----- | ------------------------------------------------------ |
-| 1-45  | 1-30   | 1-40  | Mark progress and [[#Reveal a Danger]].                |
-| 46-65 | 31-65  | 41-55 | Mark progress.                                         |
-| 66-75 | 66-90  | 56-80 | Choose one: Mark progress or [[#Find an Opportunity]]. |
-| 76-80 | 91-99  | 81-99 | Take both: Mark progress and [[#Find an Opportunity]]. |
-| 81-00 | 00     | 00    | Mark progress twice and [[#Reveal a Danger]].          |
+Edge  | Shadow | Wits  | Weak Hit Result
+------|--------|-------|--------------------------------------------------
+1-45  | 1-30   | 1-40  | Mark progress and [[#Reveal a Danger]].
+46-65 | 31-65  | 41-55 | Mark progress.
+66-75 | 66-90  | 56-80 | Choose one: Mark progress or [[#Find an Opportunity]].
+76-80 | 91-99  | 81-99 | Take both: Mark progress and [[#Find an Opportunity]].
+81-00 | 00     | 00    | Mark progress twice and [[#Reveal a Danger]].
 
 ### Find an Opportunity
 
@@ -540,37 +536,37 @@ Then, choose one.
 * Gain insight or prepare: Take +1 momentum.
 * Take action now: You and any allies may make a move (not a progress move) which directly leverages the opportunity. When you do, add +1 and take +1 momentum on a hit.
 
-| Roll  | Result                                                          |
-| ----- | --------------------------------------------------------------- |
-| 1-25  | The terrain favors you, or you find a hidden path.              |
-| 26-45 | An aspect of the history or nature of this place is revealed.   |
-| 46-57 | You locate a secure area.                                       |
-| 58-68 | A clue offers insight or direction.                             |
-| 69-78 | You get the drop on a denizen.                                  |
-| 79-86 | This area provides an opportunity to scavenge, forage, or hunt. |
-| 87-90 | You locate an interesting or helpful object.                    |
-| 91-94 | You are alerted to a potential threat.                          |
-| 95-98 | You encounter a denizen who might support you.                  |
-| 99-00 | You encounter a denizen in need of help.                        |
+Roll  | Result
+------|----------------------------------------------------------------
+1-25  | The terrain favors you, or you find a hidden path.
+26-45 | An aspect of the history or nature of this place is revealed.
+46-57 | You locate a secure area.
+58-68 | A clue offers insight or direction.
+69-78 | You get the drop on a denizen.
+79-86 | This area provides an opportunity to scavenge, forage, or hunt.
+87-90 | You locate an interesting or helpful object.
+91-94 | You are alerted to a potential threat.
+95-98 | You encounter a denizen who might support you.
+99-00 | You encounter a denizen in need of help.
 
 ### Reveal a Danger
 
 When **you encounter a risky situation within a site**, envision the danger or roll on the following table.
 
-| Roll  | Result                                                                                         |
-| ----- | ---------------------------------------------------------------------------------------------- |
-| 1-30  | Check the theme card.                                                                          |
-| 31-45 | Check the domain card.                                                                         |
-| 46-57 | You encounter a hostile denizen.                                                               |
-| 58-68 | You face an environmental or architectural hazard.                                             |
-| 69-76 | A discovery undermines or complicates your quest.                                              |
-| 77-79 | You confront a harrowing situation or sensation.                                               |
-| 80-82 | You face the consequences of an earlier choice or approach.                                    |
-| 83-85 | Your way is blocked or trapped.                                                                |
-| 86-88 | A resource is diminished, broken, or lost.                                                     |
-| 89-91 | You face a perplexing mystery or tough choice.                                                 |
-| 92-94 | You lose your way or are delayed.                                                              |
-| 95-00 | Roll twice more on this table. Both results occur. If they are the same result, make it worse. |
+Roll  | Result
+------|-----------------------------------------------------------------------------------------------
+1-30  | Check the theme card.
+31-45 | Check the domain card.
+46-57 | You encounter a hostile denizen.
+58-68 | You face an environmental or architectural hazard.
+69-76 | A discovery undermines or complicates your quest.
+77-79 | You confront a harrowing situation or sensation.
+80-82 | You face the consequences of an earlier choice or approach.
+83-85 | Your way is blocked or trapped.
+86-88 | A resource is diminished, broken, or lost.
+89-91 | You face a perplexing mystery or tough choice.
+92-94 | You lose your way or are delayed.
+95-00 | Roll twice more on this table. Both results occur. If they are the same result, make it worse.
 
 ### Check Your Gear
 
@@ -626,18 +622,18 @@ On a **miss**, a dire threat or imposing obstacle stands in your way. [[#Reveal 
 
 When **you encounter a risky situation within a site**, envision the danger or roll on the following table.
 
-| Roll  | Result                                                                                         |
-| ----- | ---------------------------------------------------------------------------------------------- |
-| 1-22  | You encounter a hostile denizen.                                                               |
-| 23-42 | You face an environmental or architectural hazard.                                             |
-| 43-58 | A discovery undermines or complicates your quest.                                              |
-| 59-64 | You confront a harrowing situation or sensation.                                               |
-| 65-70 | You face the consequences of an earlier choice or approach.                                    |
-| 71-76 | The path is blocked or trapped.                                                                |
-| 77-82 | A resource is diminished, broken, or lost.                                                     |
-| 83-88 | You face a perplexing mystery or tough choice.                                                 |
-| 89-94 | You lose your way or are delayed.                                                              |
-| 95-00 | Roll twice more on this table. Both results occur. If they are the same result, make it worse. |
+Roll  | Result
+------|-----------------------------------------------------------------------------------------------
+1-22  | You encounter a hostile denizen.
+23-42 | You face an environmental or architectural hazard.
+43-58 | A discovery undermines or complicates your quest.
+59-64 | You confront a harrowing situation or sensation.
+65-70 | You face the consequences of an earlier choice or approach.
+71-76 | The path is blocked or trapped.
+77-82 | A resource is diminished, broken, or lost.
+83-88 | You face a perplexing mystery or tough choice.
+89-94 | You lose your way or are delayed.
+95-00 | Roll twice more on this table. Both results occur. If they are the same result, make it worse.
 
 ### Mark Your Failure
 
@@ -663,11 +659,11 @@ On a **miss**, you’ve learned the wrong lessons. Take 1 experience and clear a
 
 When **you give ground to a threat through inaction, failure, or delay**, roll on the table below and envision how the change manifests in your world ([[#Ask the Oracle]] if unsure).
 
-| Roll  | Result                                                                                                                                                                                                                        |
-| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-30  | The threat readies its next step, or a new danger looms. If you are in a position to prevent this development, you may attempt to do so. If you succeed, [[#Reach a Milestone]]. Otherwise, mark menace. |
-| 31-70 | The threat works subtly to advance toward its goal, or the danger escalates. Mark menace.                                                                                                                                     |
-| 71-00 | The threat makes a dramatic and immediate move, or a major event reveals new complications. Mark menace twice.                                                                                                                |
+Roll  | Result
+------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1-30  | The threat readies its next step, or a new danger looms. If you are in a position to prevent this development, you may attempt to do so. If you succeed, [[#Reach a Milestone]]. Otherwise, mark menace.
+31-70 | The threat works subtly to advance toward its goal, or the danger escalates. Mark menace.
+71-00 | The threat makes a dramatic and immediate move, or a major event reveals new complications. Mark menace twice.
 
 On a match, this development also exposes a surprising aspect of the threat’s plan or nature.
 

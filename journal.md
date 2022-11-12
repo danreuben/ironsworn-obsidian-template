@@ -14,7 +14,9 @@ cssclass: journal
 >[!dialouge]
 >**Jagger //** We are going to be the best of friends.
 
-Roll a die with `;;dX::` (X is the die type) the result will display like this: 🎲 __3__ /D6
+Roll a die with `;;dX::` (X is the die type) the result will display like this: 🎲 __2__ /D6
+
+Roll a group sum with `::XdY;;` (X is number of Y die type) the result will display like this: 🎲 __8__ /(D6x2)
 
 Shortcuts available for Ironsworn specific rolls.
 
@@ -30,7 +32,7 @@ Shortcuts available for Ironsworn specific rolls.
 - `;;oracleRoll$::`
 >🎲 98 ⟵ (98) D100
 
-Let's make a move to [[move#Forge a Bond|Forge a Bond]]. Check out the fully linked [[IronswornOracle|Oracle]] to guide you through uncertain times and make sure not to go anywhere without a [[the-ironlands|map]].
+Let's make a move to [[move#Forge a Bond|Forge a Bond]]. Check out the fully linked [[oracle|Oracle]] to guide you through uncertain times and make sure not to go anywhere without a [[the-ironlands|map]].
 
 Have fun!
 
