@@ -22,7 +22,7 @@ table {
     width: 100%;
     max-width: var(--line-width-wide)!important;
 }
-table  tbody  tr  td:nth-child(1) {
+table tbody tr td:nth-child(1) {
     min-width: fit-content;
     white-space: nowrap;
 }
