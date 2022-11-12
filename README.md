@@ -32,7 +32,7 @@ Do the stuff, unless you just don't feel like it. I have those days too.
 4. Enable plugins at your own risk. Scary...
 5. Make a new epic vow and HAVE FUN!
 
-![image](https://user-images.githubusercontent.com/43780558/200218978-1342b87b-eaf4-44e1-ba23-f3a4bc622540.png)
+<img width="1680" alt="dark-theme" src="https://user-images.githubusercontent.com/43780558/201453896-8a441a04-ed1d-4cf5-8866-1e772c1c47b5.png">
 
-![image](https://user-images.githubusercontent.com/43780558/200218935-575164e4-3d9d-49f1-8a5f-91c05aae163c.png)
+<img width="1677" alt="light-theme" src="https://user-images.githubusercontent.com/43780558/201453900-7a9eaa8e-dfb5-42dd-bc20-90bb75d01acf.png">
 
