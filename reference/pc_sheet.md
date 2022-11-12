@@ -4,7 +4,9 @@ cssclass: character
 
 # CHARACTER SHEET
 
-![[jagger.png#profile]]**Jagger** the Vagrant of Losthill
+**Jagger** the Vagrant of Losthill
+
+![[jagger.png#profile]]
 
 ## STATS
 

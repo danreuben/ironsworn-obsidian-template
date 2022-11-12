@@ -29,49 +29,41 @@ table  tbody  tr  td:nth-child(1) {
 .markdown-rendered li.task-list-item.is-checked {
     text-decoration: none;
 }
-.markdown-source-view.mod-cm6.is-live-preview .HyperMD-list-line[data-task="x"] {
+.markdown-source-view .HyperMD-task-line[data-task="X"] {
     text-decoration: none;
 }
 
 /* Journal reading mode */
 
-.journal span[src$="#avatar"] img {
-    position: absolute;
+.markdown-rendered.journal span[src$="#avatar"] img {
+    width: 45px;
     border-radius: 50%;
     aspect-ratio: 1/1;
-	visibility: vivisble;
 }
-.journal span[src$="#avatar"] {
-    float: left;
-    position: relative;
-    top: -6px;
-    right: 60px;
-    width: 45px;
+.markdown-rendered.journal .el-embed-heading.el-p {
+    position: absolute;
+    padding-top: 5px;
 }
-.theme-dark .journal .el-embed-heading p {
-    overflow: visible;
-    margin-left: 50px;
-    padding: 5px;
+.markdown-rendered.journal .el-div[data-callout="dialouge"] div.callout {
+    background-color: transparent;
+}
+.markdown-rendered.journal .callout[data-callout="dialouge"] {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.markdown-rendered.journal .callout[data-callout="dialouge"] p {
     background-color: var(--ribbon-background);
     border-color: var(--ribbon-background);
     border-style: outset;
     border-width: 2px;
     border-radius: 5px;
-}
-.theme-light .journal .el-embed-heading p {
-    overflow: visible;
-    margin-left: 50px;
+    margin-left: 30px;
     padding: 5px;
-    background-color: var(--ribbon-background);
-    border-color: var(--ribbon-background);
-    border-style: outset;
-    border-width: 2px;
-    border-radius: 5px;
 }
-.journal .el-p p
-{
-    overflow: visible;
-    padding: 5px;
+.markdown-rendered.journal .callout-title {
+    display: none;
 }
 .journal h1,.journal h2,.journal h3
 {
@@ -80,54 +72,46 @@ table  tbody  tr  td:nth-child(1) {
 
 /* Journal Live Preview*/
 
-.is-live-preview.journal div[src$="#avatar"] > img {
+.is-live-preview.journal div[src$="#avatar"] {
     position: absolute;
+    padding-top: 35px;
+    display: none;
+}
+.is-live-preview.journal div[src$="#avatar"] img {
+    width: 45px;
     border-radius: 50%;
     aspect-ratio: 1/1;
-	display: none;
 }
-.is-live-preview.journal div[src$="#avatar"] {
-    float: left;
-    position: relative;
-    top: -6px;
-    right: 50px;
-    width: 45px;
+.is-live-preview.journal .el-div[data-callout="dialouge"] div {
+    background-color: transparent;
 }
-.is-live-preview.journal .HyperMD-header
-{
+.is-live-preview.journal .callout[data-callout="dialouge"] {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.is-live-preview.journal .callout[data-callout="dialouge"] div.callout-title {
+    display: none;
+}
+.is-live-preview.journal .callout[data-callout="dialouge"] p {
+    background-color: var(--ribbon-background);
+    border-color: var(--ribbon-background);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    /* margin-left: 30px; */
+    padding: 5px;
+}
+.is-live-preview.journal .HyperMD-header-1 {
     text-align: center;
 }
-
-/* .is-live-preview.journal span.cm-highlight {
-    background-color: var(--ribbon-background);
-    border-color: var(--ribbon-background);
-    border-style: outset;
-    border-width: 2px;
-    border-radius: 5px;
-} */
-
-
-/* .is-live-preview.journal div:not(.HyperMD-quote).cm-line[style*="text-indent"]
-{
-    background-color: var(--ribbon-background);
-    border-color: var(--ribbon-background);
-    border-style: outset;
-    border-width: 2px;
-    border-radius: 5px;
+.is-live-preview.journal .HyperMD-header-2 {
+    text-align: center;
 }
-.is-live-preview.journal .cm-indent::before {
-    content: "\200B";
-    display: block;
-    width: 1px;
-    border-right: var(--indentation-guide-width) solid var(--indentation-guide-color);
-    color: transparent;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    transform: translateX(0.15em);
-    visibility: hidden;
-} */
-
+.is-live-preview.journal .HyperMD-header-3 {
+    text-align: center;
+}
 /* Asset */
 
 /* Oracle */
@@ -135,26 +119,27 @@ table  tbody  tr  td:nth-child(1) {
 /* Character reading mode */
 
 .character span[src$="#profile"] img {
-    position: absolute;
+    position: relative;
     border-radius: 50%;
     aspect-ratio: 1/1;
 }
 .character span[src$="#profile"] {
     float: right;
     position: relative;
-    width: 200px;
+    width: 150px;
+    padding: 10px;
 }
 
 /* Character editing mode */
 
 .character div[src$="#profile"]
 img{
-    position: absolute;
+    position: relative;
     border-radius: 50%;
     aspect-ratio: 1/1;
 }
 .character div[src$="#profile"] {
     float: right;
     position: relative;
-    width: 200px;
+    width: 150px;
 }
